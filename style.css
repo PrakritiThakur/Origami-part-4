@@ -1,0 +1,77 @@
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #ececf0;
+}
+a:link{
+    color :#d4a1a1;
+}
+a:visited{
+    color :#f8e80e; 
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background: #ac4103;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:#f7f2f2;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+body{
+    margin : 0px;
+    background-color: #ffaa11;
+}
+p,h2,li,ul,ol{
+    color: #7e2102;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ }
+.grid img{
+    border-radius: 50px;
+    border : 0.25px solid #0202eb;
+    border-width : 10px;
+}
+
+.Origami{
+
+    border-radius: 50px;
+    background-color: #faddae;
+    padding:30px;
+    margin : 10px;
+    justify-content: space-evenly;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Origami:hover{
+    transform : scale(1.2);
+}
+.Origami:hover p{
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50% , -50%);
+}
+.Origami{
+    position : relative;
+}
+a{
+    text-decoration: none;
+}
+.Origami:hover img{
+    opacity : 0.3;
+}
+i{
+    text-align: center;
+    justify-content: center;
+}
+p,h2{
+    justify-content: space-evenly;
+}
